@@ -321,8 +321,8 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid #fff;
+    color: #fff;
     background-color: transparent;
 }
 
@@ -385,5 +385,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
+    webkit-tap-highlight-color: white);
 }
