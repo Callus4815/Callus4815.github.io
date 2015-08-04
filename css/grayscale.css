@@ -17,6 +17,7 @@ html {
     height: 100%;
 }
 
+
 h1,
 h2,
 h3,
@@ -260,11 +261,12 @@ a:focus {
 .content-section {
     padding-top: 100px;
 }
-.about-me {
-    width: 50%;
-    padding: 100px 0;
+
+.download-section {
+    width: 100%;
+    padding: 0 0;
     color: #fff;
-    background: url(../img/Keith%20Calise.png) no-repeat center center scroll;
+    background: url(../img/riddler21.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -272,11 +274,11 @@ a:focus {
     -o-background-size: cover;
 }
 
-.download-section {
+.download-section1 {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/spa-spa-kamni-svechi-cvety-546.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -292,11 +294,14 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 200px;
     }
 
     .download-section {
-        padding: 50px 0;
+        padding: 100px 0;
+    }
+    .download-section1 {
+        padding: 100px 0;
     }
 
     #map {
@@ -316,17 +321,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #000;
+    color: #000;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
-    outline: 0;
-    color: #000;
-    background-color: #42dca3;
+    border: 1px solid #111211;
+    outline: 1;
+    color: #9b9898;
+    background-color: transparent;
 }
 
 ul.banner-social-buttons {
