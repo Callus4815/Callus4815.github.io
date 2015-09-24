@@ -318,7 +318,7 @@ a:focus {
 
 #about p {
     clear: right;
-    margin: 25% 0% 0% 50%;
+    margin: 0% 0% 0% 50%;
     max-width: 100%;
     font-size: 16px;
     line-height: 1.3;
