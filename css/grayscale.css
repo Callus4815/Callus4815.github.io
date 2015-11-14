@@ -311,6 +311,19 @@ a:focus {
     -o-background-size: cover;
 }
 
+.download-section4 {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/drop.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+}
+
 #about {
     padding: 10% 
 }
