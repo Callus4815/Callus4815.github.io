@@ -164,6 +164,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    text-shadow: 2px 2px black;
 }
 
 .intro .intro-body .intro-text {
@@ -275,6 +276,10 @@ a:focus {
     -o-background-size: cover;
 }
 
+.container1{
+    font-family: Indie Flower;
+
+}
 .download-section1 {
     width: 100%;
     padding: 0 0;
@@ -476,6 +481,7 @@ body {
   transition: color 0.3s linear;
   -webkit-transition-delay: 0.25s;
           transition-delay: 0.25s;
+font-family: Indie Flower;
 }
 .button .shadow {
   display: block;
