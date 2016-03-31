@@ -298,13 +298,8 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
-@font-face {
-    font-family: BlowBrush;
-    src: url(BlowBrush.otf);
-}
 
 .download-section3 {
-    font-family: BlowBrush;
     width: 100%;
     padding: 0 0;
     color: #fff;
