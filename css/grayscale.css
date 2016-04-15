@@ -329,8 +329,23 @@ a:focus {
     
 }
 
+.download-section5 {
+    width: auto;
+    height: 300px;
+    padding: 0 0;
+    color: #fff;
+    background: url(../img/CRUD.jpeg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+
+}
+
 #about {
-    padding: 10% 
+    padding: 10%; 
 }
 
 
