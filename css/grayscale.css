@@ -10,7 +10,7 @@ body {
     font-family: "Helvetica";
     color: #fff;
     background: url('../img/web-design-mrnokhei-albums-2434181.jpg');
-    
+
 }
 
 html {
@@ -226,7 +226,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -243,7 +243,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -326,7 +326,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
+
 }
 
 .download-section5 {
@@ -345,13 +345,12 @@ a:focus {
 }
 
 #about {
-    padding: 10%; 
+    padding: 10%;
 }
 
 
 #about p {
     clear: right;
-    margin: 0% 0% 0% 50%;
     max-width: 100%;
     font-size: 16px;
     line-height: 1.5;
@@ -363,6 +362,8 @@ a:focus {
     float:left;
     max-width: 100%;
 }
+
+
 
 @media(min-width:767px) {
     .content-section {
@@ -544,7 +545,7 @@ font-family: Indie Flower;
 }
 .button:hover .b-title {
   color: #000;
-  
+
   -webkit-transition-delay: none;
           transition-delay: none;
 }
