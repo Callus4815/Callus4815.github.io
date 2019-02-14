@@ -144,7 +144,7 @@ var modalImg = document.getElementById("img01");
     img[i].setAttribute("id", count+=1)
     img[i].addEventListener("click", function(){
   for (var k=0; k<img.length; k++){
-    var clicked = document.getElementById(k)
+    var clicked = document.getElementById(String(k))
     modalImg.src = clicked.src
     };
   })
