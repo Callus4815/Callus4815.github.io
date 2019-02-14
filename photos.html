@@ -142,7 +142,7 @@ var modalImg = document.getElementById("img01");
 
   for (var i=0; i<img.length; i++){
     img[i].onclick = function(){
-      this.classlist.add('clicked');
+      img[i].classlist.add('clicked');
       modal.style.display = "block";
       var clicked = document.getElementsByClassName('clicked')
       modalImg.src = clicked[0].src;
