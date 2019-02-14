@@ -134,7 +134,7 @@
 
 </body>
 <script>
-  var modal = document.getElementById('myModal');
+  var modal = document.getElementById('TheModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementsByClassName('image');
@@ -142,7 +142,7 @@ var modalImg = document.getElementsByClassName("img");
 
 for (var i=0; i<img.length; i++){
 img[i].onclick = function(){
-  modal.style.display = "block";
+  modal[i].style.display = "block";
   modalImg[i].src = this.src;
   }
 }
