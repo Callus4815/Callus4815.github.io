@@ -145,6 +145,7 @@ var modalImg = document.getElementById("img01");
       }
    for (var i=1; i<img.length; i++){
 		img[i].addEventListener("click", function() {
+      modal.style.display = "block"
 			modalImg.src = this.src
         })
    }
