@@ -140,10 +140,10 @@
 var img = document.getElementsByClassName('image');
 var modalImg = document.getElementById("img01");
 
-for (var i=0; i<img.length; i++){
-img[i].onclick = function(){
-  modal.style.display = "block";
-  modalImg[i].src = this.src;
+  for (var i=0; i<img.length; i++){
+    img[i].onclick = function(){
+      modal.style.display = "block";
+      modalImg[i].src = img[i].src;
   }
 }
 
