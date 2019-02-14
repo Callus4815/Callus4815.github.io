@@ -145,10 +145,10 @@ var modalImg = document.getElementById("img01");
 }
 
   for (var i=0; i<img.length; i++){
-    img.onclick = function(){
+    img.addEventListener("click", function(){
     var clicked = document.getElementById(i)
     modalImg.src = clicked.src
-    }
+    })
   }
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
