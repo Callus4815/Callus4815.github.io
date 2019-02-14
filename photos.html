@@ -140,12 +140,12 @@
 var img = document.getElementsByClassName('image');
 var modalImg = document.getElementById("img01");
 
-img.onclick = function() {
-  this.classlist.add('clicked')
   for (var i=0; i<img.length; i++){
+    img[i].onclick = function(){
+      this.classlist.add('clicked');
       modal.style.display = "block";
-      var clicked_image = document.getElementsByClassName('clicked')
-      modalImg.src = clicked_image[0].src;
+      var clicked = document.getElementsByClassName('clicked')
+      modalImg.src = clicked[0].src;
   }
 }
 
