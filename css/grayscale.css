@@ -277,7 +277,7 @@ a:focus {
 }
 
 .container1{
-    font-family: Indie Flower;
+    /* font-family: Indie Flower; */
 
 }
 .download-section1 {
@@ -496,7 +496,7 @@ body {
   transition: color 0.3s linear;
   -webkit-transition-delay: 0.25s;
           transition-delay: 0.25s;
-font-family: Indie Flower;
+/* font-family: Indie Flower; */
 }
 .button .shadow {
   display: block;
