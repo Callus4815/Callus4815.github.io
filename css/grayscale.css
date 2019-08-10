@@ -9,7 +9,8 @@ body {
     height: 100%;
     font-family: "Montserrat";
     color: #fff;
-    background: url('../img/web-design-mrnokhei-albums-2434181.jpg');
+    /* background: url('../img/web-design-mrnokhei-albums-2434181.jpg'); */
+    background: black;
 
 }
 
@@ -149,7 +150,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    /* background: url(../img/intro-bg.jpg) no-repeat bottom center scroll; */
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -164,7 +165,6 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
-    text-shadow: 2px 2px black;
 }
 
 .intro .intro-body .intro-text {
