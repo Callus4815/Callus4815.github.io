@@ -171,6 +171,15 @@ a:focus {
     font-size: 18px;
 }
 
+.intro .intro-body .intro-text .email {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.intro .intro-body .intro-text .email:hover {
+    color: wheat;
+}
+
 @media(min-width:768px) {
     .intro {
         height: 100%;
@@ -268,8 +277,9 @@ a:focus {
     width: 100%;
     padding: 0 0;
     color: #fff;
-    background: url(../img/riddler21.jpg) no-repeat center center scroll;
+    /* background: url(../img/riddler21.jpg) no-repeat center center scroll; */
     background-color: #000;
+    border-top: 1px solid #FFFFFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -284,8 +294,9 @@ a:focus {
     width: 100%;
     padding: 0 0;
     color: #fff;
-    background: url(../img/spa-spa-kamni-svechi-cvety-546.jpg) no-repeat center center scroll;
+    /* background: url(../img/spa-spa-kamni-svechi-cvety-546.jpg) no-repeat center center scroll; */
     background-color: #000;
+    border-top: 1px solid #FFFFFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -297,7 +308,7 @@ a:focus {
     padding: 0 0;
     color: #fff;
     background: ;
-    background-color: slategray;
+    background-color: gray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -308,8 +319,9 @@ a:focus {
     width: 100%;
     padding: 0 0;
     color: #fff;
-    background: url(../img/pandas2.jpg) no-repeat center center scroll;
+    /* background: url(../img/pandas2.jpg) no-repeat center center scroll; */
     background-color: #000;
+    border-top: 1px solid #FFFFFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -320,8 +332,9 @@ a:focus {
     width: 100%;
     padding: 0 0;
     color: #fff;
-    background: url(../img/drop.jpg) no-repeat center center scroll;
+    /* background: url(../img/drop.jpg) no-repeat center center scroll; */
     background-color: #000;
+    border-top: 1px solid #FFFFFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -334,6 +347,7 @@ a:focus {
     height: 300px;
     padding: 0 0;
     color: #fff;
+    border-top: 1px solid #FFFFFF;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -344,7 +358,7 @@ a:focus {
 }
 
 #about {
-    padding: 10%;
+    padding: 5% 10% 5% 10%;
 }
 
 
@@ -370,19 +384,19 @@ a:focus {
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 50px 0;
     }
     .download-section1 {
-        padding: 100px 0;
+        padding: 50px 0;
     }
     .download-section2 {
-        padding: 200px 0;
+        padding: 50px 0;
     }
     .download-section3 {
-        padding: 200px 0;
+        padding: 50px 0;
     }
     .download-section4 {
-        padding: 200px 0;
+        padding: 50px 0;
     }
 
     #map {
@@ -469,22 +483,22 @@ body {
     webkit-tap-highlight-color: white);
 }
 .button {
-  font-size: 24px;
+  font-size: 15px;
   color: #FFFFFF;
   letter-spacing: 2px;
   text-align: center;
   line-height: 40px;
   min-height: 40px;
   opacity: 1;
-  -webkit-transform: skewX(-8deg);
-          transform: skewX(-8deg);
+  /* -webkit-transform: skewX(-8deg); */
+          /* transform: skewX(-8deg); */
   display: inline-block;
   margin: 0 auto;
   padding: 0 15px;
   border: 2px solid #FFFFFF;
   text-decoration: none;
   position: relative;
-  width: 200px;
+  width: 270px;
 }
 .button .b-title {
   -webkit-transform: skewX(8deg);
